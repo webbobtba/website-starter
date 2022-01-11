@@ -1,0 +1,22 @@
+{
+  "name": "website-starter",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "dev": "parcel serve index.html --no-source-maps --dist-dir dev",
+    "build": "parcel build index.html --no-source-maps --dist-dir build --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.0.1",
+    "posthtml-include": "^1.7.2"
+  },
+  "posthtml": {
+    "plugins": {
+      "posthtml-include": {}
+    }
+  }
+}
