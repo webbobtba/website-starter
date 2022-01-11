@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "button:build",
+      "type": "shell",
+      "command": "npm run build",
+      "presentation": {
+        "group": "build",
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "button:dev",
+      "type": "shell",
+      "command": "npm run dev",
+      "presentation": {
+        "group": "dev",
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "button:install",
+      "type": "shell",
+      "command": "npm install",
+      "presentation": {
+        "group": "install",
+        "reveal": "always",
+        "panel": "new"
+      }
+    }
+  ]
+}

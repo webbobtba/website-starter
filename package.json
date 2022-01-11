@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hotwired/turbo": "^7.1.0",
     "parcel": "^2.0.1",
     "posthtml-include": "^1.7.2"
   },
